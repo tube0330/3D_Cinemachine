@@ -6,7 +6,7 @@ using UnityEngine.Video;
 public class Video : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
-    public bool isPlaying = false;
+    bool isPlaying = false;
 
     public void ClickVideo(bool isPlaying)
     {

@@ -889,7 +889,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 394055218}
-  isPlaying: 0
 --- !u!1 &1984914292
 GameObject:
   m_ObjectHideFlags: 0
