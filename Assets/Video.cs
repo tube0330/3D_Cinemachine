@@ -6,21 +6,18 @@ using UnityEngine.Video;
 public class Video : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
-    bool isPlaying = false;
 
-    public void ClickVideo(bool isPlaying)
+    public void ClickVideo()
     {
 
-        if(isPlaying)
+        if(videoPlayer.isPlaying)
         {
             videoPlayer.Play();
-            print(isPlaying);
         }
 
         else
         {
             videoPlayer.Pause();
-            print(isPlaying);
         }
     }
 }

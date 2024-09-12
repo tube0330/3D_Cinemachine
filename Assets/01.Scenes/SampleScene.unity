@@ -166,7 +166,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394055216}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: b371e9e6a94defc4b8da29d91fe22112, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: c05565695ab38b34b80d211a1ba0981b, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -642,7 +642,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1901215361}
         m_TargetAssemblyTypeName: Video, Assembly-CSharp
         m_MethodName: ClickVideo
-        m_Mode: 6
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
